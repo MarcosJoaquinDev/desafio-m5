@@ -1,0 +1,32 @@
+
+.hands-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+@keyframes slideInFromUp {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideInFromDown {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+.up{
+    animation: 1.5s ease-out 0s 1 slideInFromUp;
+}
+.down{
+    animation: 1.5s ease-out 0s 1 slideInFromDown;
+}

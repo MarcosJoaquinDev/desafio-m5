@@ -1,0 +1,26 @@
+.header{
+    margin: 20px auto;
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:30px;
+}
+.hands{
+    margin: 0 auto;
+    margin-bottom: 0;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+@media (min-width :600px) {
+    .hands{
+        width: 600px;
+    }
+}
+.hands__option{
+    width: 112px;
+}

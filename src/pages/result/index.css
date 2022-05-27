@@ -1,0 +1,34 @@
+.header{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner{
+    background-image: url('./winner.png');
+}
+.looser{
+    background-image: url('./looser.png');
+}
+.points{
+    border: solid 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+.points_title{
+    align-self: flex-start;
+}
+.button-back{
+    max-width: 300px;
+    margin: 0 auto;
+}
